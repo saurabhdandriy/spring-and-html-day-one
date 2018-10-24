@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  function validate()
+  {
+  alert("Your application is submitted Successfully \nYou will recieve your Application id Shorlty");
+  return false;
+  }
+  </script>
+  <style>
+   h6
+   {
+   font-family:sans-serif;
+   }
+  </style>
+</head>
+<body background= "s.jpg">
+<form name ="login" onsubmit="return validate()">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4"  style = "background-color:lightgray;opacity:0.95;border-radius:45px 45px 45px 5px;margin-top:80px;margin-bottom:160px">
+	<br>
+	<h2 align="center">Program Form</h2><br>
+
+		<h6>&nbsp;Program Name:</h6><input type = "text" class = "form-control" id = "Prog_Name" name = "Prog_Name" placeholder = "Name of the program" required><br>
+		
+		<h6>&nbsp;City:</h6><input type = "text" class = "form-control" id = "city" name = "city" placeholder = "Enter the City" required><br>
+		
+		<h6>&nbsp;State:</h6><input type = "text" class = "form-control" id = "state" name = "state" placeholder = "Enter the State" required><br>
+		
+		<h6>&nbsp;Zipcode:</h6><input type = "text" class = "form-control" id = "zipcode" name = "zipcode" placeholder = "Enter the Zipcode" required><br>
+		
+		<h6>&nbsp;Start Date:</h6><input type = "date" class = "form-control" id = "start" name = "start" required><br>
+		
+		<h6>&nbsp;End Date:</h6><input type = "date" class = "form-control" id = "end" name = "end" required><br>
+		
+		<h6>&nbsp;Sessions Per Week:</h6><input type = "number" class = "form-control" id = "session" name = "session" required><br>
+
+	<div class = "row">
+	<center>
+		<div>
+			<button type= "submit" class = "btn btn-secondary" align = "center" style = "background-color:gray;color:white;" >Submit</button>
+		</div>
+		<br>
+	</center>
+	</div>
+	<div align = "center" id="div" style = "color:black;"></div>
+	</div>
+	
+    </div>
+    <div class="col-sm-4">
+    </div>
+  </div>
+  
+</div>
+</form>
+
+</body>
+</html>

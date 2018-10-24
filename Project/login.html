@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  function validate()
+  {
+  alert("Login Template");
+  }
+  </script>
+  
+</head>
+<body background= "s.png">
+<form name ="login" onsubmit="return validate()" action = "program-admin.html">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4"  style = "background-color:lightgray;opacity:0.95;border-radius:45px 45px 45px 5px;margin-top:160px">
+	<br>
+	<h2 align="center">Login</h2><br>
+
+    <input type = "email" class = "form-control" id = "usr" name = "usr" placeholder = "Username" required><br>
+	<input type = "password" class = "form-control" id = "pwd" name = "pwd" placeholder = "Password" required><br>
+	<div class = "row">
+	<center>
+		<div>
+			<button type= "submit" class = "btn btn-secondary" align = "center" style = "background-color:gray;color:white;" >Login</button>
+		</div>
+		<h6><a href="forgot.html">Forgot Password?</a></h6>
+		<br>
+	</center>
+	</div>
+	</div>
+    </div>
+    <div class="col-sm-4">
+    </div>
+  </div>
+</div>
+</form>
+</body>
+</html>
