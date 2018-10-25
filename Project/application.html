@@ -9,7 +9,7 @@
   <script>
   function validate()
   {
-  alert("Your application is submitted Successfully \nYou will recieve your Application id Shorlty");
+  alert("You are Registered \n You will get your status shortly");
   return false;
   }
   </script>
@@ -18,15 +18,26 @@
    {
    font-family:sans-serif;
    }
+   div.background
+   {
+    background: url(sss.jpg);
+     background-repeat: no-repeat;
+    border: 2px solid black;
+	 opacity:0.9 ;
+}
+
+
   </style>
 </head>
-<body background= "s.jpg">
+<body >
+<div class="background">
+
 <form name ="login" onsubmit="return validate()">
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
     </div>
-    <div class="col-sm-4"  style = "background-color:lightgray;opacity:0.95;border-radius:45px 45px 45px 5px;margin-top:80px;margin-bottom:160px">
+    <div class="col-sm-4"  style = "background-color:lightgray;opacity:1.0;border-radius:45px 45px 45px 45px;margin-top:50px;margin-bottom:160px">
 	<br>
 	<h2 align="center">Application Form</h2><br>
 
@@ -52,8 +63,8 @@
     <div class="col-sm-4">
     </div>
   </div>
-  
-</div>
+  </div>
+
 </form>
 
 </body>
